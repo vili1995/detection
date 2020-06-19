@@ -1,0 +1,34 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  background: lightgrey;
+  display: flex;
+  flex-flow: row;
+
+  padding: 50px;
+}
+
+#video_container {
+  flex: 0 1;
+  background: black;
+  display: flex;
+  align-items: center;
+}
+
+#result_container {
+  flex: 1;
+  display: flex;
+  overflow: auto;
+}
